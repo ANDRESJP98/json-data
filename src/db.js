@@ -10,6 +10,13 @@ DB_DEPLOY,
     native: false, 
     }
  )
+ // const sequelize = new Sequelize(
+//    `postgres://${DB_USER}:${DB_PASSWORD}@${DB_HOST}/${BD}`,
+//    {
+//       logging: false, 
+//       native: false
+//    }
+// )
 ProductModel(sequelize);
 const { Product } = sequelize.models;
 
