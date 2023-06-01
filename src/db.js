@@ -8,11 +8,6 @@ DB_DEPLOY,
 {
     logging: false, 
     native: false, 
-    dialectOptions: {
-       ssl: {
-          require: true
-       }
-    }
     }
  )
 ProductModel(sequelize);
