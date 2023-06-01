@@ -1,5 +1,5 @@
 const server = require("./src/app");
-const port = process.env.PORT||3001;
+const port = process.env.PORT||3002;
 const {sequelize}=require("./src/db")
 
 sequelize.sync({ alter: true })
